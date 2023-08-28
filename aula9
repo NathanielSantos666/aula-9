@@ -1,0 +1,78 @@
+// let name = prompt('Qual o seu nome?');
+// let color = prompt('Qual a sua cor favorita?');
+// console.log(`A cor favorita de ${name} é: ${color}`);
+//-> tem que usar `` pro ${} funcionar (acho)
+
+// console.log(name.length);
+//-> quantidade de caracteres
+
+// console.log(name.toLowerCase());
+//-> pra mudar pra lowercase
+
+// console.log(name.toUpperCase());
+//-> pra mudar pra uppercase
+
+// console.log(name.trim());
+//-> retira os espaços ao redor da string
+
+// const frase = 'hj comi batata yum';
+// console.log(frase.includes('cenoura'));
+//-> metodo pra buscar uma palavra presente na string
+
+// const frase = 'hj comi batata, adoro batata';
+// console.log(frase);
+// console.log(frase.replaceAll('batata','cenoura'));
+//-> substitui um texto por um novo texto
+
+// let frase = prompt('escreve uma frase ai');
+// console.log(frase.toUpperCase());
+// console.log(frase.replaceAll('o','i'));
+// console.log(frase.length);
+
+//ARRAYS
+/*
+let listaDeExercicios = ['elevação lateral', 'supino', 'voador'];
+console.log(listaDeExercicios[0]);
+console.log(listaDeExercicios[1]);
+console.log(listaDeExercicios[2]);
+console.log(listaDeExercicios);
+*/
+//pra determinar um ARRAY se usa o [colchete], o id sempre começa do 0
+
+/*
+let raçasCachorro = ['Chihuahua', 'Borzoi', 'Galgo', 'Akita', 'Pin-tsu', 'Pitbull', 'Fila', 'Husky', 'Samoieda', 'Dachshund'];
+let numero = Number(prompt('Insira um número de 0 a 9'));
+console.log(raçasCachorro[numero]);
+*/
+
+/*
+const pokemon = ['chikorita', 'cyndaquill', 'totodile'];
+console.log(pokemon.length);
+console.log(pokemon[0].length);
+*/
+
+/*
+const mangasFoda = ['Berserk', 'Devilman', 'Monster'];
+console.log(mangasFoda.includes('Berserk'));
+console.log(mangasFoda.includes('Naruto'));
+*/
+
+//PUSH, POP E SPLICE
+// const instrumentos = ['violão', 'guitarra', 'bateria', 'baixo'];
+// console.log(instrumentos);
+// instrumentos.push('teclado');
+// console.log(instrumentos);
+// instrumentos.pop();
+// console.log(instrumentos);
+// instrumentos.splice(1, 1);
+// console.log(instrumentos);
+
+//EXERCICIO
+const array = [1, 2, 3, 4, 5, 6];
+console.log(array);
+console.log(array.length);
+array.push(7);
+console.log(array);
+array.splice(3, 2);
+console.log(array);
+console.log(array.length);
